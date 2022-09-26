@@ -7,6 +7,7 @@ st.set_page_config(
 #The needed packages for visualization are installed
 #The following packages are include those needed for plotly
 import pandas as pd
+import scipy
 import numpy as np 
 import chart_studio.plotly as py
 import cufflinks as cf
