@@ -1,4 +1,3 @@
-from turtle import width
 import streamlit as st
 st.set_page_config(
     page_title="Data Science Career",
@@ -18,7 +17,10 @@ import country_converter as coco
 import pycountry_convert as pc
 from PIL import Image
 import plotly.graph_objects as go
-def country_to_continent(country_name):    country_continent_code = pc.country_alpha2_to_continent_code(country_name)    country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)    return country_continent_name
+def country_to_continent(country_name):
+    country_continent_code = pc.country_alpha2_to_continent_code(country_name)
+    country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)
+    return country_continent_name
 st.text("")
 st.markdown(f'<h1 style="color:#494949;font-size:50px;">{"📊  Data Science Career"}</h1>', unsafe_allow_html=True)
 st.text("")
