@@ -1,3 +1,4 @@
+pycountry_convert
 chart_studio
 country_converter
 cufflinks
